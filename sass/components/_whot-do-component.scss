@@ -1,0 +1,42 @@
+.h-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-dark);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    
+}
+.working-list {
+    display: flex;
+    padding-bottom: 94px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.work {
+    display: block;
+    position: relative;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+.opacity-info {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+}
+.opacity-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text--color-white);
+    margin: 27px 0px;
+}

@@ -1,0 +1,19 @@
+.modal-close-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--secondary-text--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        fill: var(--moz-text-decoration-color);
+    }
+}
